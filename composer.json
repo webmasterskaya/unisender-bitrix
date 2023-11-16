@@ -1,0 +1,20 @@
+{
+	"require": {
+		"webmasterskaya/unisender": "dev-master",
+		"nyholm/psr7": "^1.0",
+		"ext-mbstring": "*"
+	},
+	"replace": {
+		"psr/http-client": "*",
+		"psr/http-message": "*",
+		"psr/log": "*"
+	},
+	"repositories": [
+		{
+			"type": "git",
+			"url": "git@github.com:webmasterskaya/unisender-php.git"
+		}
+	],
+	"minimum-stability": "dev",
+	"prefer-stable": true
+}
